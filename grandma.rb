@@ -1,5 +1,9 @@
-def speak_to_grandma
-  if
+def speak_to_grandma(name)
+  if name == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN"
+  elsif name == name.upcase
+    puts "NO, NOT SINCE 1938"
+  else ""
 
 
 # Write a speak_to_grandma method.
