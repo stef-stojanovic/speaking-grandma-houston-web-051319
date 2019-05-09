@@ -3,8 +3,9 @@ def speak_to_grandma(name)
     puts "I LOVE YOU TOO PUMPKIN"
   elsif name == name.upcase
     puts "NO, NOT SINCE 1938"
-  else ""
-
+  else 
+    puts "HUH?! SPEAK UP, SONNY!"
+end
 
 # Write a speak_to_grandma method.
 
